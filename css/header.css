@@ -1,0 +1,132 @@
+:root {
+  --primary: linear-gradient(45deg, #190f2c, #200b30);
+  --text-color: #fff;
+  --text-secondary: #F4B70F; 
+  --text-tertiary: #5d5d5d;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+.menuflw {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: none;
+  margin-bottom: 50px;
+  bottom: 20px;
+  left: 20px;
+  width: 100%;
+}
+.menuflw:hover {
+  pointer-events: all;
+}
+.labelflw {
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: all;
+}
+.spacerflw {
+  display: inline-block;
+  width: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+}
+.spacerflw:before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #ffffff;
+  height: 1px;
+  width: 0%;
+  transition: width 0.25s ease;
+  transition-delay: 0.7s;
+}
+.itemflw {
+  position: relative;
+  display: inline-block;
+  margin-right: 0px;
+  top: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease, top 0.5s ease;
+  transition-delay: 0;
+  padding: 10px;
+}
+span {
+  transition: color 0.5s ease;
+  font-size: 15px;
+}
+.itemflw:hover span {
+  color: var(--text-secondary);
+}
+.menuflw:hover .spacerflw:before {
+  width: 100%;
+  transition-delay: 0s;
+}
+.menuflw:hover .itemflw {
+  opacity: 1;
+  top: 0px;
+}
+.itemflw:nth-child(1) {
+  transition-delay: 0.45s;
+}
+.itemflw:nth-child(2) {
+  transition-delay: 0.4s;
+}
+.itemflw:nth-child(3) {
+  transition-delay: 0.35s;
+}
+.itemflw:nth-child(4) {
+  transition-delay: 0.3s;
+}
+.itemflw:nth-child(5) {
+  transition-delay: 0.25s;
+}
+.itemflw:nth-child(6) {
+  transition-delay: 0.2s;
+}
+.itemflw:nth-child(7) {
+  transition-delay: 0.15s;
+}
+.itemflw:nth-child(8) {
+  transition-delay: 0.1s;
+}
+.itemflw:nth-child(9) {
+  transition-delay: 0.05s;
+}
+.itemflw:nth-child(10) {
+  transition-delay: 0s;
+}
+.menuflw:hover .itemflw:nth-child(1) {
+  transition-delay: 0.25s;
+}
+.menuflw:hover .itemflw:nth-child(2) {
+  transition-delay: 0.3s;
+}
+.menuflw:hover .itemflw:nth-child(3) {
+  transition-delay: 0.35s;
+}
+.menuflw:hover .itemflw:nth-child(4) {
+  transition-delay: 0.4s;
+}
+.menuflw:hover .itemflw:nth-child(5) {
+  transition-delay: 0.45s;
+}
+.menuflw:hover .itemflw:nth-child(6) {
+  transition-delay: 0.5s;
+}
+.menuflw:hover .itemflw:nth-child(7) {
+  transition-delay: 0.55s;
+}
+.menuflw:hover .itemflw:nth-child(8) {
+  transition-delay: 0.6s;
+}
+.menuflw:hover .itemflw:nth-child(9) {
+  transition-delay: 0.65s;
+}
+.menuflw:hover .itemflw:nth-child(10) {
+  transition-delay: 0.7s;
+}

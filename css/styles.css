@@ -1,0 +1,261 @@
+:root {
+    --primary: linear-gradient(45deg, #190f2c, #200b30);
+    --text-color: #fff;
+    --text-secondary: #F4B70F; 
+    --text-tertiary: #5d5d5d;
+}
+
+html,
+body {
+	background: linear-gradient(45deg, #190f2c, #200b30);
+	padding: 15px;
+}
+
+
+#img-main img {
+	max-width: 20% !important;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+    margin-top: -150px !important;
+    position: fixed;
+}
+
+* {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: var(--text-color);
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+#container-skills {
+    display: inline-block;
+    width: 98%;
+}
+
+h1 {
+    color: var(--text-secondary);
+    font-family: "righteous";
+    text-align: end;
+    font-size: 100px;
+    margin-bottom: -20px;
+}
+
+.btn-download {
+    color: var(--primary);
+    border: none;
+    text-align: center;
+    margin-right: 5px;
+    width: 100px;
+    text-decoration: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-download a {
+    text-decoration: none;
+}
+
+:hover.btn-download {
+    font-weight: 900;
+}
+
+#description {
+display: flex; 
+margin-left: 50px; 
+}
+
+
+#skills {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+#about {
+    margin-top: 20px;
+    width: 98%;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 10px;
+    text-align: end;
+}
+
+#download-text {
+
+    display: flex;
+    justify-content: start;
+    text-align: end;
+    align-items: center;
+    margin-top: 2px;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.textabout {
+    width: 100%;
+    display: flex;
+    padding: 0;
+}
+
+.textabout img{
+    margin-left: 30px;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+    color: #F4B70F;
+}
+
+.contact p {
+    text-align: start;
+    padding: 10px;
+}
+
+.flwcontactbox a{
+    margin: 5px;
+    font-size: 16px;
+
+}
+
+
+.flwcontactbox a span{
+    margin: 10px;
+    font-size: 16px;
+
+}
+
+.flwcontactbox a span:hover{
+    color: #F4B70F;
+
+}
+
+.btn-open-modal{
+    width: 100%;
+    text-align: end;
+    padding: 20px;
+}
+
+/* MOBILE */
+
+
+@media(max-width: 450px) {
+    #mobile-only {
+    }
+
+    .btn-open-modal {
+        margin-bottom: 20px;
+    }
+
+    #art-contact{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .contact {
+        padding: 0px;
+    }
+
+    #art-about{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    #img-main img {
+        position: sticky !important;
+        max-width: 300px !important;
+        width: 70px !important;
+    }
+
+    .textabout img {
+        margin-left: 0px;
+        width: 30%;
+        height: 30%;
+    }
+
+    #download-text {
+        display: flex;
+        justify-content: start;
+        text-align: end;
+        align-items: center;
+        margin-top: 0px;
+        padding: 5px;
+        margin-left: 0px;
+    }
+}
+@media(min-width: 450px) {
+    #mobile-only {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+    .menuflw{ 
+      display: none !important; 
+    }
+
+    #description{
+        display: flex;
+        height: auto;
+    }
+
+    .menu-nav{
+        margin-top: 50px !important;
+        display: flex;
+    }
+
+    #img-main img {
+        display: none !important;
+    }
+
+    #disclaimer h1{
+        font-size: 48px;
+        text-align: start;
+    }
+
+    
+    .btn-open-modal {
+        width: 100%;
+        padding: 5px;
+        }
+
+    .menu-nav{
+        margin-top: 50px !important;
+        display: flex;
+        display: none !important;
+    }
+
+    #img-main img {
+        display: flex!important;
+        height: 180px !important;
+        margin-top: -35px !important;
+        margin-left: 70px;
+    }
+
+    #disclaimer h1{
+        font-size: 48px;
+        text-align: end;
+        width: 140%;
+    }
+
+    .disclaimer-text {
+        margin-right: -25px !important;
+    } 
+
+    #description {
+        margin-left: 0;
+    }
+
+  }
+
+
+
