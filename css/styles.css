@@ -142,6 +142,12 @@ margin-left: 50px;
     padding: 20px;
 }
 
+.menu-nav{
+    position:static;
+    top: 0;
+    left: 0;
+}
+
 /* MOBILE */
 
 
@@ -160,6 +166,10 @@ margin-left: 50px;
 
     .contact {
         padding: 0px;
+    }
+
+    .text {
+        display: none;
     }
 
     #art-about{
@@ -253,6 +263,10 @@ margin-left: 50px;
 
     #description {
         margin-left: 0;
+    }
+
+    .list li a {
+        font-size: 10px !important;
     }
 
   }

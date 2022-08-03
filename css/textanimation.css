@@ -1,0 +1,25 @@
+
+  
+  .cursor {
+    margin-left: 0.25em;
+    color: transparent;
+  }
+  
+  .blinkAnim {
+    animation: blinkMe 1.2s linear infinite;
+  }
+  
+  @keyframes blinkMe {
+    0% {
+      opacity: 0;
+    }
+    49% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
